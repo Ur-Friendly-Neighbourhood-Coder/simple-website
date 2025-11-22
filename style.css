@@ -1,32 +1,48 @@
-body {
+/* Basic reset */
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: Arial, sans-serif;
-    background: #f4f4f4;
 }
 
+/* Body Styling */
+body {
+    background-color: #121212;
+    color: white;
+    line-height: 1.6;
+}
+
+/* Header */
 header {
-    background: #111;
+    background-color: #1e1e1e;
     padding: 20px;
     text-align: center;
+    border-bottom: 2px solid #00eaff;
 }
 
 header h1 {
-    color: #fff;
-    margin: 0;
+    color: #00eaff;
+}
+
+/* Navigation */
+nav {
+    margin-top: 10px;
 }
 
 nav a {
-    color: #fff;
-    margin: 0 15px;
+    color: #00eaff;
     text-decoration: none;
+    margin: 0 15px;
     font-weight: bold;
 }
 
-.hero {
-    padding: 100px;
-    text-align: center;
+nav a:hover {
+    color: yellow;
 }
 
-.content {
+/* Main Section */
+section {
     padding: 40px;
-}
+    max-width: 900px;
+    mar
